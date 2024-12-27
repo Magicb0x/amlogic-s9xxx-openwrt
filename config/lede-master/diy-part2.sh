@@ -34,6 +34,9 @@ git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 
 rm -rf package/luci-app-tinyfilemanager
 git clone https://github.com/muink/luci-app-tinyfilemanager.git package/luci-app-tinyfilemanager
+
+rm -rf package/luci-app-modeminfo
+git clone https://github.com/solomonricky/luci-app-modeminfo.git package/luci-app-modeminfo
 #
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
